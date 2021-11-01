@@ -7,6 +7,7 @@ seed_G1.edgelist is the original graph and seed_G2.edgelist is the anonymized gr
 
 As the answer of this problem, you need to give a file shows full mapping of seed nodes in G1 and G2 and follows the format shown in the file seed_node_pairs.txt.
 
+So for G1, if the source is 1 and target is 3 then that means node 1 of of G1 is connected to node 3 of G2
  
 
 Hint:
