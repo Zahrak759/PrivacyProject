@@ -12,3 +12,4 @@ print (nx.info(g))
 nx.draw(g)
 
 plt.show()
+plt.savefig("g1graph.png")
