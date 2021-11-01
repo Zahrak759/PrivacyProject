@@ -1,5 +1,5 @@
 # PrivacyProject
-
+""""
 In this project, you will utilize seed based de-anonymization to solve real problems.
 
 In the seed based de-anonymization part, you have two graphs and a seed node pairs file. The graphs are given in edgelist filetype.
@@ -23,6 +23,6 @@ d e
 
 You can use package networkx in python to read the edgelist file.
 
-
+"""
 
 
