@@ -8,6 +8,8 @@ g=nx.read_edgelist('seed_node_pairs.txt',create_using=nx.Graph(),nodetype=int)
 
 print (nx.info(g))
 
-nx.draw(g)
+seed_pairs = list(g.edges)
+print(seed_pairs)
+# nx.draw(g)
 
-plt.show()
+# plt.show()
