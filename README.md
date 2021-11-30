@@ -31,13 +31,9 @@ d e
 
 You can use package networkx in python to read the edgelist file.
 
-<<<<<<< HEAD
 
 We weren't able to make our project run successfully provided the time and resources.
 
 I have mentioned more details about our effort in the project report
 
-"""
 
-=======
->>>>>>> 0677b12c5cec6bca0d87b2652c8165be1bf4e71c
