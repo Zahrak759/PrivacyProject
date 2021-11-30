@@ -24,5 +24,10 @@ d e
 
 You can use package networkx in python to read the edgelist file.
 
+
+We weren't able to make our project run successfully provided the time and resources.
+
+I have mentioned more details about our effort in the project report
+
 """
 
