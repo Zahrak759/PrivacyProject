@@ -19,7 +19,7 @@ print (nx.info(g))
 #print(list(g.edges))
 
 #listing the neighbors of node 3506
-#print(list(g.adj[3506]))
+print(list(g.adj[3506]))
 
 #listing the degree of node 3506 (the number of edges incident to 1)
 #print(g.degree[3506])

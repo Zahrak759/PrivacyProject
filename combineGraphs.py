@@ -49,14 +49,14 @@ first_col_g1 = []
 for list in g1_edges:
     first_col_g1.append(list[0])
 #print(first_col_g1)
-print(len(first_col_g1)) #159748 nodes
+#print(len(first_col_g1)) #159748 nodes
 
 #gets second index in g2
 second_col_g2 = []
 for list in g2_edges:
     second_col_g2.append(list[1])
 #print(second_col_g2)
-print(len(second_col_g2)) #159802 nodes
+#print(len(second_col_g2)) #159802 nodes
 
 #need to figure out how to connect g1 column to g2 column and/or compare them to the seed pairing file
 def merge(g1, g2):
@@ -64,6 +64,7 @@ def merge(g1, g2):
     return merged
 #print(merge(first_col_g1, second_col_g2))
 
+#attempted to find matching pairs in g1 and g2
 def matches ():
     set_g3seed = set(seed_pairs)
     g3 = merge(first_col_g1,second_col_g2)
@@ -72,4 +73,5 @@ def matches ():
     return matching_pairs
 print(matches())
 
-#find neighbors for each node in each graph and implement an algorithm that calculates the similiarities of the nodes.
+
+    
